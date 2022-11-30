@@ -21,7 +21,7 @@ Created TestNg class to run different test scenarios in in.swiggy.testscripts pa
 HTML reports are generated.
 After the project is successfully executed,it is pushed to gitHub.
 Here is my GitHub repository url
-https://github.com/sakku85/swiggy.git
+https://github.com/Sakunthala84/Swiggy.git
 Following Are Used To Complete the Project
 
 • Eclipse as IDE • Java Development Kit Version 8 • Selenium standalone server Version 3.141.59 • TestNG • Cucumber
