@@ -2,27 +2,47 @@
 
 Swiggy Project Steps Which I did to complete this project
 
-First I created a maven project named ‘ SwiggyProject ’.
-All cucumber related dependencies are added in pom.xml
-‘chromedriver.exe’ is added in resource folder.
-Created one feature file named ‘food_order.feature’ in Features folder where test scenario is described using Gherkin language.
-Created ‘in.swiggy.testscripts’ package
-Created ‘in.swiggy.pages’ package
-Created one java class named ‘ OrderFoodSteps’ to define the steps in food_order.feature file scenario
-Created one TestRunner class where I given connection to feature file and glue code
-Used hooks ‘Before After’ which enables to setUp and teardown browser
-Created one Driver.Java class file where all objects of page classes are instantiated
-Created one Tools.Java class to create static WebDriver object (driver) which is used by all classes by extending this class
-Created LandingPage.Java class to locate different webelements in landing page of the Swiggy Application
-Created RestaurentPage.java class to locate the webelements in next page where all restaurents present with the given location in landing page
-Created AllFoodItemsPage.java class to locate the web elements in next page where all food items are present in selected restaurant
-Created CheckOutPage.java class to locate the webelements in checkout page of the application
-Created TestNg class to run different test scenarios in in.swiggy.testscripts package
-HTML reports are generated.
-After the project is successfully executed,it is pushed to gitHub.
-Here is my GitHub repository url
-https://github.com/Sakunthala84/Swiggy.git
-Following Are Used To Complete the Project
+1. First I created a maven project named ‘ SwiggyProject ’.
+
+2.All cucumber related dependencies are added in pom.xml
+
+3.‘chromedriver.exe’ is added in resource folder.
+
+4. Created one feature file named ‘food_order.feature’ in Features folder where test scenario is described using Gherkin language.
+
+5.Created ‘in.swiggy.testscripts’ package
+
+6.Created ‘in.swiggy.pages’ package
+
+7.Created one java class named ‘ OrderFoodSteps’ to define the steps in food_order.feature file scenario
+
+8.Created one TestRunner class where I given connection to feature file and glue code
+
+9.Used hooks ‘Before After’ which enables to setUp and teardown browser
+
+10.Created one Driver.Java class file where all objects of page classes are instantiated
+
+11.Created one Tools.Java class to create static WebDriver object (driver) which is used by all classes by extending this class
+
+12.Created LandingPage.Java class to locate different webelements in landing page of the Swiggy Application
+
+13.Created RestaurentPage.java class to locate the webelements in next page where all restaurents present with the given location in landing page
+
+14.Created AllFoodItemsPage.java class to locate the web elements in next page where all food items are present in selected restaurant
+
+15.Created CheckOutPage.java class to locate the webelements in checkout page of the application
+
+16.Created TestNg class to run different test scenarios in in.swiggy.testscripts package
+
+17.HTML reports are generated.
+
+18.After the project is successfully executed,it is pushed to gitHub.
+
+19.Here is my GitHub repository url
+   https://github.com/Sakunthala84/Swiggy.git
+ 
+ 
+ Following Are Used To Complete the Project
 
 • Eclipse as IDE • Java Development Kit Version 8 • Selenium standalone server Version 3.141.59 • TestNG • Cucumber
 
